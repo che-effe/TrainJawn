@@ -1,0 +1,15 @@
+
+.tile-list-item {
+  height: 40;
+}
+
+.tile-list-item text {
+  height: 32;
+  font-family: System-Regular;
+  font-size: 30;
+  fill: "white";
+}
+
+#list {
+  y: 40;
+}

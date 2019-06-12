@@ -1,0 +1,29 @@
+<svg id ="main" pointer-events="visible">
+ 
+  <use href="#tile-list" id="list">
+    <use href="#tile-list-header" class="tile-list-item">
+      <text id="dirText" text-length="40"/>
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <text id="status0" class="trainTime" text-length="40"/>
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <text id="status1" class="trainTime" text-length="40"/>
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <text id="status2" class="trainTime" text-length="40"/>
+    </use>
+      <use href="#tile-list-item" class="tile-list-item">
+      <text id="status3" class="trainTime" text-length="40"/>
+    </use>
+    <use href="#tile-list-footer" class="tile-list-item">
+      <text>End of list</text>
+    </use>
+  </use>
+   <use id="mybutton" href="#push-button" y="0" height="40"
+      fill="fb-red" font-family="System-Regular" font-size="20">
+      <set href="#text" attributeName="text-buffer" to="Reverse Trip" />
+      <set href="#text" attributeName="fill" to="fb-peach" />
+      <set href="#text" attributeName="y" to="12" />
+  </use>
+</svg>
